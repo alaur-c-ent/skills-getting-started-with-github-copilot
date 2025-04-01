@@ -77,14 +77,19 @@ section h3 {
 .activity-card ul {
   margin-top: 10px;
   padding-left: 20px;
-  list-style-type: circle; /* Changed bullet style to circle */
-  color: #444; /* Slightly darker color for better readability */
+  list-style-type: square; /* Changed bullet style to square for better distinction */
+  color: #333; /* Adjusted color for better contrast */
+  background-color: #f0f0f0; /* Added subtle background for participant list */
+  padding: 10px; /* Added padding for better spacing */
+  border-radius: 5px; /* Rounded corners for a polished look */
+  border: 1px solid #ddd; /* Border to separate the list visually */
 }
 
 .activity-card ul li {
-  margin-bottom: 8px; /* Increased spacing for better readability */
-  font-size: 15px; /* Slightly larger font size */
-  font-style: italic; /* Added italic style for differentiation */
+  margin-bottom: 8px; /* Maintain spacing for readability */
+  font-size: 14px; /* Standardized font size */
+  font-weight: 500; /* Slightly bold for emphasis */
+  color: #555; /* Softer color for participant names */
 }
 
 .form-group {
